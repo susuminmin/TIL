@@ -15,6 +15,8 @@ print(ranks)
 
 for rank in ranks:
     print(rank.text)
+
+    
 # # 원하는 정보는 급상승 검색어... 우클릭 요소검사 탭 
 
 # # selector 만들기 / 코스피 나우 부분
