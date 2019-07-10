@@ -1,0 +1,20 @@
+<!-- 느낌표 tab을 누르면 자동으로 아래 양식이 완성된다 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie</title>
+</head>
+<body>
+    <h1>영화 목록</h1>
+    <ul>
+    {% for movie in movies %}
+        <li>{{ movie }}</li>
+    {% endfor %}
+    <!-- for 문이 어디서 끝나는지~ -->
+    </ul>
+</body>
+</html>
