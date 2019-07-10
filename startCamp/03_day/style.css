@@ -1,0 +1,19 @@
+
+/* 요소 선택자 (type) */
+h2 {
+    color:rgb(0, 255, 21);
+}
+
+/* 아이디 선택자 (id) */
+#description {
+    background-color: brown;
+}
+
+/* 클래스 선택자 (id) */
+li.list-item {
+    font-size: 40px;
+}
+
+ul li {
+    background-color: #3706aa;
+}

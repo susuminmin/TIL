@@ -30,7 +30,7 @@
    git add . 
    ```
 
-   작업한 모든 내용 다 add 하겠다.
+   작업한 모든 내용 다 add 하겠다. (**<u>띄어쓰기 안하면 안 됨</u>**)
 
    
 
@@ -43,6 +43,8 @@
    ```
    $ git commit -m "커밋 메세지"
    ```
+
+   빨간색이 초록색 됐는지? check 하는 단계?!
 
    
 
@@ -67,7 +69,7 @@
 
    
 
-## 원격 저장소 활용하기 
+## 원격 저장소 활용하기
 
 1. 원격 저장소 (remote repository) 등록하기 
 
@@ -124,6 +126,14 @@
 ref: https://backlog.com/git-tutorial/kr/intro/intro1_1.html
 
 
+
+
+
+c.f.  txt랑 csv 무시할 때 git bash 에서
+
+```
+$ vi .gitignore
+```
 
 
 
