@@ -1,7 +1,6 @@
 from flask import Flask, render_template
 import datetime
 import random
-
 app = Flask(__name__)
 
 @app.route("/") # end point
@@ -54,7 +53,7 @@ def cube(num):
 
 @app.route('/lunch/<int:people>')
 def lunch(people):
-    menu = ['짜장면', '짬뽕', '탕수육', '볶음밥']
+     menu = ['짜장면', '짬뽕', '탕수육', '볶음밥']
     choice = random.choices(menu, k=people)
     return str(choice)
 

@@ -21,16 +21,16 @@
    그리고 그 목록은 `index(혹은 staging) area` 라고 한다. 
 
    ```
-   git add <폴더이름 혹은 파일이름>
+   $ git add <폴더이름 혹은 파일이름>
    ```
 
    
 
    ```
-   git add . 
+   $ git add . 
    ```
 
-   작업한 모든 내용 다 add 하겠다. (**<u>띄어쓰기 안하면 안 됨</u>**)
+   작업한 모든 내용 다 add 하겠다. **(<u>띄어쓰기 안하면 안 됨</u>)**
 
    
 
@@ -85,13 +85,14 @@
 
    ```
    $ git remote -v
+   
    origin  https://github.com/susuminmin/TIL.git (fetch)
    origin  https://github.com/susuminmin/TIL.git (push)
    ```
 
    
 
-2. 원격 저장소에 올리기
+2. **원격 저장소에 올리기**
 
    ```
    $ git push origin master
@@ -101,7 +102,7 @@
 
    
 
-3. 원격 저장소에서 가져오기
+3. **원격 저장소에서 가져오기**
 
    ```
    $ git pull origin master
@@ -109,7 +110,7 @@
 
 
 
-4. 원격 저장소를 로컬에 복사하기
+4. **원격 저장소를 로컬에 복사하기**
 
    ```
    $ git clone __경로__
