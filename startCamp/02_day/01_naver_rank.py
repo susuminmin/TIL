@@ -1,5 +1,4 @@
-# # 네이버 페이지에 요청 보내기
-
+# 네이버 페이지에 요청 보내기
 import requests
 import bs4
 
@@ -17,7 +16,7 @@ for rank in ranks:
     print(rank.text)
 
     
-# # 원하는 정보는 급상승 검색어... 우클릭 요소검사 탭 
+# 우클릭 > 요소 검사
+# KOSPI_NOW 부분을 selector 만들기
 
-# # selector 만들기 / 코스피 나우 부분
-# # '.ah_l .ah_item .ah_a .ah_k ' 
+# '.ah_l .ah_item .ah_a .ah_k ' 
